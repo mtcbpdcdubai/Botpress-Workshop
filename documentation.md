@@ -237,9 +237,9 @@ and that's it! You have integrated your personal chatbot with your website in un
 ## References
 Thank you for joining our workshop, we hope these links help you in your bot building journey:
 
-Building a bot from scratch! - https://www.youtube.com/watch?v=1EVE2jlFgOc
-Integrating bot with website - https://www.youtube.com/watch?v=hiaaYPewDtg
-Making API calls - https://www.youtube.com/watch?v=Guqx82O0w1s
+- Building a bot from scratch! - https://www.youtube.com/watch?v=1EVE2jlFgOc
+- Integrating bot with website - https://www.youtube.com/watch?v=hiaaYPewDtg
+- Making API calls - https://www.youtube.com/watch?v=Guqx82O0w1s
 
 
 
