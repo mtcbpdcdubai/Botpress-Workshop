@@ -210,3 +210,17 @@ Let's summarise the workflow:
   Within the error node, the bot says that it cannot answer the question. After sending this message, the bot goes back to the Question Node to ask the user if they have any queries. 
 
 Steps 2-4 are repeated till the user has no questions to ask
+
+You can test the working of your bot in the Emulator panel on the right hand side
+
+## Integrating your bot to your website
+
+Now that your bot has been built, it is time to integrate with your website
+
+Before doing so, you will have to publish the bot by clicking `Publish` on the top right corner of your page. This may take a few minutes
+
+Once done, go back to your dashboard by clicking the Top left icon on your Botpress studio
+
+When you are back into your homepage, look for the "Webchat" option on the left panel under your bot and click on it
+
+
