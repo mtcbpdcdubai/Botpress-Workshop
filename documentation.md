@@ -16,7 +16,7 @@ Botpress is designed to be highly customizable and can be used to create AI-powe
 
 Follow these simple steps to get started with bot building
 
-- Visit [Botpress cloud](www.botpress.com) and hit sign up
+- Visit www.botpress.com and hit sign up
 - Sign up with your Google Account and verify your account
 - You have now reached your workspace from where you can manage your chatbots
 - Click "Create bot", then name your bot with a simple name and click Open in Studio
