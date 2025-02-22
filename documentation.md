@@ -187,5 +187,26 @@ For that, we add another expression card, with the condition set to "true", and 
 
 Our bot's workflow finally looks like this
 
+![image](https://github.com/user-attachments/assets/7eb6033e-3df8-48b6-ae98-b6742517f1a9)
 
+Let's summarise the workflow:
+- Step 1
+  Firstly, the bot asks the user about the size of the group
+  - If the group size is lesser than 5, we go to Singapore
+  - If the group size is greater than 5 and lesser than 10, we go to Hawaii
+  - If the group size is greater than 10, we go to New Zealand
 
+-Step 2
+  After giving this information, the bot asks the user if they have any questions
+  - If Yes, we ask the question (By going to Answering_Questions Node)
+  - If No, we end the session
+
+- Step 3
+  In the Answering_Questions Node, once the user asks the question, there are two possibilities :
+  - If the bot answers the question, we ask the user if they have more questions, by going to the Questions Node
+  - If the bot cannot answer the question, we go to the Error node
+
+- Step 4
+  Within the error node, the bot says that it cannot answer the question. After sending this message, the bot goes back to the Question Node to ask the user if they have any queries. 
+
+Steps 2-4 are repeated till the user has no questions to ask
