@@ -46,7 +46,7 @@ Now that you know these, lets start building!!
 
 # Travel Website Chatbot
 
-For this workshop, we will be building a chatbot for a travel blog. Firstly, go over to the Autonomous nodes in the middle of the screen. Right click on it and click delete node. The remaining parts of this documentation is divided into sections, each named after the node we are using in the workflow. This workflow will contain the logic that is going on behind the scenes. We advice you to keep testing your bot from time to time in the Emulator panel on the right hand side.
+For this workshop, we will be building a chatbot for a travel blog. Firstly, go over to the Autonomous node in the middle of the screen. Right click on it and click delete node. The remaining parts of this documentation is divided into sections, each named after the node we are using in the workflow. This workflow will contain the logic that is going on behind the scenes. We advice you to keep testing your bot from time to time in the Emulator panel on the right hand side.
 
 ## Introduction Node
 
