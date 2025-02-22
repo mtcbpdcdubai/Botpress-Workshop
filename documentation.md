@@ -113,7 +113,7 @@ Now, once we have advised the user about the place they should go to, we always 
 
 So with this, once the bot is done suggesting the place to visit, it will always redirect the user to the question node behind the scene.
 
-## Question_Node
+## Question Node
 
 After connecting the expression cards from the destination nodes, the workflow should look like this:
 
@@ -133,7 +133,7 @@ However, if the user still has some questions, we need to have a **special arran
 Firstly, we are going to create a new node and name it "Answering_Questions". 
 We then connect the "Yes" option from the Questions_Node to this new "Answering_Questions" Node.
 
-## Answering_Questions (The node with the special arrangement)
+## Answering Questions (The node with the special arrangement)
 
 Create another Standard node and rename it "Answering_Questions". Connect the "Yes" from the previous node to this node. 
 
@@ -141,5 +141,16 @@ For our bot to answer questions, it needs to have information stored in some sor
 
 To add a knowledge base to your bot, click on "Knowledge Bases" on the left hand side of your studio, and click on `New Knowledge Base` and name it "Travel Bot"
 
-Now, within the list of Knowledge Bases, click on Travel Bot
+Now, within the list of Knowledge Bases, click on Travel Bot. This is what it should look like:
+![image](https://github.com/user-attachments/assets/9f4d7c56-a0f0-4a44-b2f1-a75f9605daad)
+
+As you can see here, we can make our bot retrieve information from multiple sources, like a text document, a website, or by simply doing a web search. Since we want our bot to answer only Travel based questions, we are going to click on `Web Search`, and select `Search on specific websites` under the `On which websites should we search on` field.
+
+For this exercise, add the following link to the `Websites to search on` field:
+```
+https://theworldtravelguy.com/
+```
+
+Now, before going back to building our bot, Click "Agents" on the left of your Botpress Studio, and under "Knowledge Agents", disable the "Answer Manually" option.
+
 
