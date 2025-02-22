@@ -46,8 +46,12 @@ Now that you know these, lets start building!!
 
 # Travel Website Chatbot
 
-For this workshop, we will be building a chatbot for a travel blog. The remaining parts of this documentation is divided into sections, each named after the node we are using in the workflow.
+For this workshop, we will be building a chatbot for a travel blog. Firstly, go over to the Autonomous nodes in the middle of the screen. Right click on it and click delete node. The remaining parts of this documentation is divided into sections, each named after the node we are using in the workflow.
 
-## 
+## Introduction Node
+
+Right click anywhere on the studio, and click Standard node, you will see something like that:
+
+Move over to the "Standard1" text on your node and rename the node to "Introduction". This is the first building block of your bot.
 
 
