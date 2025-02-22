@@ -54,11 +54,33 @@ Right click anywhere on the studio, and click Standard node, you will see someth
 ![image](https://github.com/user-attachments/assets/577ac5e9-f695-4c60-bc99-61f20a0cca6b)
 
 Move over to the "Standard1" text on your node and rename the node to "Introduction". This is the first building block of your bot.
+Join the start node to this introduction node with the help of the dots next to these nodes
 
 Click on Add card, and you will see a variety of cards that you can add to the node:
 
+![image](https://github.com/user-attachments/assets/92d995af-34cf-4c93-8c84-80e9676629c0)
 
 Click on "Text" under the "Send Message" section. Once you do this, you will see a box where you can type the message you want to send to the user.
 Type an introductory statement - "Hi, this is John, your travel agent for today!"
+
+Idea of this Bot - We have to ask the user the size of the group they are travelling with, and based on the size of the group, we advise them the place they should go to.
+- To capture the group size, click on Add card, scroll down to the "Capture Information" section in the card library and click on "Number". 
+- Now next to the bot, in the card information panel for this Number card, locate the "Question to the user" field and Enter the Question : "How big of a group are you travelling with?"
+- And right below this text input, you will see the "Select/Create a Variable" option. Click on it, name this variable as "groupSize" and click create variable.
+
+What has happened now is, the bot will ask the user for the size of the group they are traveling with and store the user input in a variable called workflow.groupSize. We can use this variable to help the bot decide the place the user has to travel to
+
+To keep this simple, if the group size is less than 5, the bot advises the user to go to Singapore; if group size is more than 5 and less than 10, the user goes to Hawaai and if the group size is more than 10, the user goes to New Zealand.
+
+To do this, click on add card, locate the "Flow Logic" section, and add three Expression cards
+Expression cards allow you to redirect the user from one node to another based on some condition
+
+- For the first Expression card, in the card information panel, under the "Label" field, write "if group size is less than 5".
+  Then in the condition panel, click on the blue icon to disable Generative AI for this field, and write the following code snippet
+  ```Javascript
+  workflow.groupSize < 5
+  ``` 
+
+
 
 
