@@ -113,7 +113,7 @@ Now, once we have advised the user about the place they should go to, we always 
 
 So with this, once the bot is done suggesting the place to visit, it will always redirect the user to the question node behind the scene.
 
-## Question Node
+## Question_Node
 
 After connecting the expression cards from the destination nodes, the workflow should look like this:
 
@@ -121,15 +121,25 @@ After connecting the expression cards from the destination nodes, the workflow s
 
 Now we ask the user if they have any questions, if yes, we take them to another node, and if not, we end the session.
 For this, click on "Add Card" in Question node, and add the "Single Choice" card under the "Capture information" section. 
+
 In the "Question to the user" field of this card, write - "Do you have any questions?"
+
 And in the "Choices" section of this card, add two items - "Yes" and "No"
 
 Once you do this, you will see that the questions node has one "Single Choice" card with two options, Yes and No. 
 As discussed earlier, if the user does not have any questions, we end the session. So for this, simply connect the "No" to the end node.
 
-However, if the user still has some questions, we need to have a special arrangement to answer those questions. 
+However, if the user still has some questions, we need to have a **special arrangement** to answer those questions. 
 Firstly, we are going to create a new node and name it "Answering_Questions". 
 We then connect the "Yes" option from the Questions_Node to this new "Answering_Questions" Node.
 
+## Answering_Questions (The node with the special arrangement)
 
+Create another Standard node and rename it "Answering_Questions". Connect the "Yes" from the previous node to this node. 
+
+For our bot to answer questions, it needs to have information stored in some sort of database. The bot can look for answers in this database and give the answer to the user. This special arrangement is called "Knowledge Base".
+
+To add a knowledge base to your bot, click on "Knowledge Bases" on the left hand side of your studio, and click on `New Knowledge Base` and name it "Travel Bot"
+
+Now, within the list of Knowledge Bases, click on Travel Bot
 
