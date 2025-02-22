@@ -36,7 +36,7 @@ Here are some basic terms to know before getting started
 
 **Workspace** - The main environment in Botpress Studio, where you manage all your chatbots. It includes tools for building, testing, and deploying bots.
 
-**Workflow** - A structured sequence of nodes and transitions that define how a chatbot interacts with users. It represents the chatbot's conversation logic.
+**Workflow** - A structured sequence of nodes and transitions that define how a chatbot interacts with users. It represents the chatbot's conversation logic. It is basically what is going on behind the scenes of your bot
 
 **Nodes** - The building blocks of a workflow, each representing a step in the conversation. Nodes can contain messages, conditions, API calls, or actions. All nodes in your workflow will be between two nodes, start node and end node.
 
@@ -46,7 +46,7 @@ Now that you know these, lets start building!!
 
 # Travel Website Chatbot
 
-For this workshop, we will be building a chatbot for a travel blog. Firstly, go over to the Autonomous nodes in the middle of the screen. Right click on it and click delete node. The remaining parts of this documentation is divided into sections, each named after the node we are using in the workflow.
+For this workshop, we will be building a chatbot for a travel blog. Firstly, go over to the Autonomous nodes in the middle of the screen. Right click on it and click delete node. The remaining parts of this documentation is divided into sections, each named after the node we are using in the workflow. This workflow will contain the logic that is going on behind the scenes. We advice you to keep testing your bot from time to time in the Emulator panel on the right hand side.
 
 ## Introduction Node
 
@@ -106,5 +106,16 @@ Your group size is @workflow.groupSize , for a group this size, we advice you to
 ```
 
 The `@workflow.groupSize` helps to print the value stored in our groupSize variable
+
+Do the same for the "Hawaii" and "New_Zealand" nodes. 
+
+Now, once we have advised the user about the place they should go to, we always ask them if they have any questions. For this, we are going to create a "Question" Node, as it will be discussed in the upcoming section. But before that we will create expression cards, as we did before, in all the Destination nodes. We will set the condtion in these expression nodes as "true", and these expression cards will be connected to the new "Question" node that we are going to make.
+
+So with this, once the bot is done suggesting the place to visit, it will always redirect the user to the question node behind the scene.
+
+## Question Node
+
+After connecting the expression cards from the destination nodes, the workflow should look like this:
+
 
 
