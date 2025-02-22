@@ -117,5 +117,19 @@ So with this, once the bot is done suggesting the place to visit, it will always
 
 After connecting the expression cards from the destination nodes, the workflow should look like this:
 
+![image](https://github.com/user-attachments/assets/8766642b-686a-478f-88f7-60f46a6f986a)
+
+Now we ask the user if they have any questions, if yes, we take them to another node, and if not, we end the session.
+For this, click on "Add Card" in Question node, and add the "Single Choice" card under the "Capture information" section. 
+In the "Question to the user" field of this card, write - "Do you have any questions?"
+And in the "Choices" section of this card, add two items - "Yes" and "No"
+
+Once you do this, you will see that the questions node has one "Single Choice" card with two options, Yes and No. 
+As discussed earlier, if the user does not have any questions, we end the session. So for this, simply connect the "No" to the end node.
+
+However, if the user still has some questions, we need to have a special arrangement to answer those questions. 
+Firstly, we are going to create a new node and name it "Answering_Questions". 
+We then connect the "Yes" option from the Questions_Node to this new "Answering_Questions" Node.
+
 
 
