@@ -91,5 +91,8 @@ Expression cards allow you to redirect the user from one node to another based o
 
 ## Destination Nodes
 
+Create a standard node by right clicking anywhere on the Botpress Studio and click Standard Node
+Rename this node as "Singapore", which was the destination to go to if the groupSize was less than 5. From Introduction Node, join the dot from the first expression card to this "Singapore" Node
+Similarly, create two more nodes, "Hawaii" and "New_Zealand" and join them accrodingly. After these changes, your workflow should look like this:
 
 
