@@ -196,7 +196,7 @@ Let's summarise the workflow:
   - If the group size is greater than 5 and lesser than 10, we go to Hawaii
   - If the group size is greater than 10, we go to New Zealand
 
--Step 2
+- Step 2
   After giving this information, the bot asks the user if they have any questions
   - If Yes, we ask the question (By going to Answering_Questions Node)
   - If No, we end the session
