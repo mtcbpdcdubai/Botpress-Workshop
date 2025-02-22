@@ -227,6 +227,19 @@ When you are back into your homepage, look for the "Webchat" option on the left 
 
 Click Theme, and edit the look of your bot according to your preferences and click Save.
 
-Once you are satisfied with the look of your bot, click share
+Once you are satisfied with the look of your bot, click Share
+
+![image](https://github.com/user-attachments/assets/c5a678d7-4770-48ab-b668-1ff8f45de078)
+
+Copy the code within "Embed Code" and paste it in the body of your html file.
+and that's it! You have integrated your personal chatbot with your website in under an hour!!
+
+## References
+Thank you for joining our workshop, we hope these links help you in your bot building journey:
+
+Building a bot from scratch! - https://www.youtube.com/watch?v=1EVE2jlFgOc
+Integrating bot with website - https://www.youtube.com/watch?v=hiaaYPewDtg
+Making API calls - https://www.youtube.com/watch?v=Guqx82O0w1s
+
 
 
