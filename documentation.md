@@ -151,6 +151,25 @@ For this exercise, add the following link to the `Websites to search on` field:
 https://theworldtravelguy.com/
 ```
 
+So our `Travel bot` Knowledge base will always refer to this website for the information it needs. We can add other sources too, but this should be enough for this exercise.
+
 Now, before going back to building our bot, Click "Agents" on the left of your Botpress Studio, and under "Knowledge Agents", disable the "Answer Manually" option.
+
+![image](https://github.com/user-attachments/assets/dd16cf60-d31b-4dba-8bcc-8371862b2ed0)
+
+Now, to return to your bot, click "Workflow" on left panel.
+
+In the Answering_Questions Node, add another card called "Raw Input" which can be found in the "Capture Information" section. 
+- Add a question under the "Question to the user" field.
+- And in the Knowledge Base section, select the "Travel Bot" we just created!
+
+And now, our bot will look for answers to the user's question from the knowledge base we just created. Once the question has been answered, we want to ask the user again if they have any more questions. So for this, we add another expression card to the node, with the condition set to true. This expression card will be connected to the "Questions" node we created earlier. 
+
+However, there is a possibility that the bot is unable to find an answer from the knowledge base. In this case, the bot will throw an error and we need to handle it safely. For this, we create another expression card, we label this card as "Error Handling", and write the following code snippet:
+**Note** - Make sure to add this "Error Handling" expression card ABOVE the "always" expression card we created prior to this. You can drag cards within a node and keep them in the order you want.
+```Javascript
+!turn.KnowledgeAgent.responded
+```
+Make a new standard node, name it "Error", and connect the "Error Handling" expression card to this new node.
 
 
