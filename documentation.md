@@ -172,4 +172,20 @@ However, there is a possibility that the bot is unable to find an answer from th
 ```
 Make a new standard node, name it "Error", and connect the "Error Handling" expression card to this new node.
 
+![image](https://github.com/user-attachments/assets/2d4a597c-db82-4c4c-9c63-77cf576b3294)
+
+## Error Node
+
+Within this node, add a new text card from the "Send Message" section and write the following text:
+"I am sorry, I cannot answer the question"
+This message will help us handle the error safely
+
+Following this, we want the bot to ask the user if they have any more questions
+For that, we add another expression card, with the condition set to "true", and connect this card to the Question Node
+
+## Summary of workflow
+
+Our bot's workflow finally looks like this
+
+
 
