@@ -23,6 +23,10 @@ Follow these simple steps to get started with bot building
 - You will be asked to choose a template. Ignore all the cool looking templates and click on Quick Start, as we will be building from scratch!
 - Look for `Edit Main Flow` at the bottom of the page and click it
 
+![screenshot](Assets/Screenshot 2025-02-22 064817.png)
+
+
+
 What you see on your screen now is Botpress Studio, where you'll be designing the workflow of your bot
 
 ## Some basic terms
