@@ -51,7 +51,14 @@ For this workshop, we will be building a chatbot for a travel blog. Firstly, go 
 ## Introduction Node
 
 Right click anywhere on the studio, and click Standard node, you will see something like that:
+![image](https://github.com/user-attachments/assets/577ac5e9-f695-4c60-bc99-61f20a0cca6b)
 
 Move over to the "Standard1" text on your node and rename the node to "Introduction". This is the first building block of your bot.
+
+Click on Add card, and you will see a variety of cards that you can add to the node:
+
+
+Click on "Text" under the "Send Message" section. Once you do this, you will see a box where you can type the message you want to send to the user.
+Type an introductory statement - "Hi, this is John, your travel agent for today!"
 
 
