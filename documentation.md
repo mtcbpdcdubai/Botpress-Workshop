@@ -50,7 +50,7 @@ For this workshop, we will be building a chatbot for a travel blog. Firstly, go 
 
 ## Introduction Node
 
-Right click anywhere on the studio, and click Standard node, you will see something like that:
+Right click anywhere on the studio, and click Standard node:
 ![image](https://github.com/user-attachments/assets/577ac5e9-f695-4c60-bc99-61f20a0cca6b)
 
 Move over to the "Standard1" text on your node and rename the node to "Introduction". This is the first building block of your bot.
