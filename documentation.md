@@ -80,7 +80,16 @@ Expression cards allow you to redirect the user from one node to another based o
   ```Javascript
   workflow.groupSize < 5
   ``` 
+- For the second expression card, add the label - "If group size greater than 5 and less than 10", and add the following code snippet in the "Condition Field":
+   ```Javascript
+   workflow.groupSize  >  5 && workflow.groupSize < 10
+  ```
+- For the third expression card, add the label - "If group size greater than 10", and add the following code snippet in the "Condition Field":
+   ```Javascript
+   workflow.groupSize  >  10
+  ```
 
+## Destination Nodes
 
 
 
