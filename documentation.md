@@ -223,4 +223,10 @@ Once done, go back to your dashboard by clicking the Top left icon on your Botpr
 
 When you are back into your homepage, look for the "Webchat" option on the left panel under your bot and click on it
 
+![image](https://github.com/user-attachments/assets/08e4bf1f-6333-4824-a130-c119793e19a6)
+
+Click Theme, and edit the look of your bot according to your preferences and click Save.
+
+Once you are satisfied with the look of your bot, click share
+
 
