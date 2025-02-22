@@ -56,11 +56,11 @@ Right click anywhere on the studio, and click Standard node:
 Move over to the "Standard1" text on your node and rename the node to "Introduction". This is the first building block of your bot.
 Join the start node to this introduction node with the help of the dots next to these nodes
 
-Click on Add card, and you will see a variety of cards that you can add to the node:
+Click on Add card within the node, and you will see a variety of cards that you can add to the node:
 
 ![image](https://github.com/user-attachments/assets/92d995af-34cf-4c93-8c84-80e9676629c0)
 
-Click on "Text" under the "Send Message" section. Once you do this, you will see a box where you can type the message you want to send to the user.
+Click on "Text" card under the "Send Message" section. Once you do this, you will see a box where you can type the message you want to send to the user.
 Type an introductory statement - "Hi, this is John, your travel agent for today!"
 
 Idea of this Bot - We have to ask the user the size of the group they are travelling with, and based on the size of the group, we advise them the place they should go to.
