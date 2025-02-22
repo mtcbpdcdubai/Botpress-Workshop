@@ -109,7 +109,7 @@ The `@workflow.groupSize` helps to print the value stored in our groupSize varia
 
 Do the same for the "Hawaii" and "New_Zealand" nodes. 
 
-Now, once we have advised the user about the place they should go to, we always ask them if they have any questions. For this, we are going to create a "Question" Node, as it will be discussed in the upcoming section. But before that we will create expression cards, as we did before, in all the Destination nodes. We will set the condtion in these expression nodes as "true", and these expression cards will be connected to the new "Question" node that we are going to make.
+Now, once we have advised the user about the place they should go to, we always ask them if they have any questions. For this, we are going to create another Standard node called "Question" (will be discussed in the upcoming section). But before that we will create expression cards, as we did before, in all the Destination nodes. We will set the condtion in these expression nodes as "true", and these expression cards will be connected to the new "Question" node that we are going to make.
 
 So with this, once the bot is done suggesting the place to visit, it will always redirect the user to the question node behind the scene.
 
