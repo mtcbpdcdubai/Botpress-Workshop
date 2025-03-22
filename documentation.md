@@ -30,6 +30,14 @@ Follow these simple steps to get started with bot building
 
 What you see on your screen now is Botpress Studio, where you'll be designing the workflow of your bot
 
+## Website GDrive
+
+The website we are making the bot for: 
+
+```
+https://drive.google.com/drive/folders/1P5RqwKoLPMESS_FPaFnIugs3ScenDT-_?usp=sharing
+```
+
 ## Some basic terms
 
 Here are some basic terms to know before getting started
